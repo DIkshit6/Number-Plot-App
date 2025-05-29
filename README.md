@@ -1,26 +1,24 @@
-# Number Plot App
-# NumberPlotApp
+# Cracker System Graph
 
-NumberPlotApp is a React-based application that allows users to add and visualize numerical data points on a line chart. The application includes features like undo/redo, descriptions for data points, and local storage for persistent data.
+Cracker System Graph is a React-based web application that allows users to plot and visualize data points on a line chart. Each data point includes a numerical value, description, date, and time. The app features undo and redo functionalities, grouped data visualization, and the ability to edit descriptions for each data point.
 
 ## Features
 
-- **Date and Time Input**: Add data points with a specific date, time, and description.
-- **Line Chart Visualization**: Visualize your data points on a line chart using `recharts`.
-- **Undo and Redo**: Easily undo or redo your actions.
-- **Edit Descriptions**: Update descriptions for each data point dynamically.
-- **Local Storage**: Persistent storage of data across sessions.
+- Add data points with values between -100 and +100.
+- Input descriptions for each data point.
+- Select a specific date for each point.
+- Undo and redo changes to the graph.
+- View grouped data by month and year.
+- Edit descriptions of existing data points directly in the app.
+- Responsive, dark-themed UI for an enhanced user experience.
 
-## Technologies Used
+## Screenshots
 
-- **React**: Core framework for building the application.
-- **Recharts**: Library for creating data visualizations.
-- **TailwindCSS**: Used for styling the components.
-- **Local Storage**: Browser's local storage for persisting data.
+![Screenshot of Cracker System Graph](path/to/screenshot.png)
 
-## Setup and Installation
+## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NumberPlotApp.git
-   cd NumberPlotApp
+   git clone https://github.com/your-username/cracker-system-graph.git
+   cd cracker-system-graph
